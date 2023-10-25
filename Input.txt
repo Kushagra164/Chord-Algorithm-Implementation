@@ -1,0 +1,19 @@
+5
+17
+AddNode 3
+AddKey 21 6
+AddKey 31 0
+Search 31
+AddKey 6 6
+AddNode 22 
+Show 3
+AddNode 31
+AddNode 17
+Show 16
+Show 17
+AddKey 20 3
+AddKey 11 2
+AddKey 18 3
+AddKey 15 4
+AddNode 16
+Show 31
