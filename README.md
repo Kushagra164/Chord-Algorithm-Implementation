@@ -114,13 +114,13 @@ Key is present at Node: 22
 
 Some of the security issues in the Chord protocol include:![ref1]
 
-**Sybil Attacks:** Chord is vulnerable to Sybil attacks, where an attacker creates multiple malicious nodes to control a significant portion of the network. This can disrupt the correct functioning of the protocol and lead to data inconsistency.![](Aspose.Words.de782acc-90e3-4d2e-bd10-9cfc31ac6253.003.png)
+**Sybil Attacks:** Chord is vulnerable to Sybil attacks, where an attacker creates multiple malicious nodes to control a significant portion of the network. This can disrupt the correct functioning of the protocol and lead to data inconsistency.
 
 **Eclipse Attacks**: In an eclipse attack, an attacker surrounds a target node with malicious nodes in the Chord ring, preventing the target from discovering honest nodes. This can lead to routing errors and data compromise.
 
 **Routing Table Poisoning:** An attacker may join the Chord network and provide false information in its routing table, causing the network to route messages through the attacker, leading to data interception or manipulation.
 
-**Malicious Nodes:** Chord assumes that nodes are cooperative and honest, but malicious nodes can behave arbitrarily, refusing to store data, dropping messages, or providing false information, compromising the integrity and availability of data.![](Aspose.Words.de782acc-90e3-4d2e-bd10-9cfc31ac6253.004.png)
+**Malicious Nodes:** Chord assumes that nodes are cooperative and honest, but malicious nodes can behave arbitrarily, refusing to store data, dropping messages, or providing false information, compromising the integrity and availability of data.
 
 **Man-in-the-Middle Attacks**: Chord messages are typically sent in plaintext, making it susceptible to man-in-the-middle attacks where an attacker intercepts and modifies messages between nodes.
 
@@ -132,7 +132,7 @@ Some of the security issues in the Chord protocol include:![ref1]
 
 **Trust and Authentication:** Chord does not have built-in mechanisms for node authentication or trust establishment, leaving the network vulnerable to impersonation and unauthorized access.
 
-To mitigate these security issues in Chord and similar DHT protocols, various countermeasures and security enhancements can be implemented. These may include cryptographic techniques for securing communication, robust node admission and eviction policies, reputation systems to identify malicious nodes, and protocols for handling churn in a secure manner. Additionally, combining Chord with other security mechanisms or using it as ![](Aspose.Words.de782acc-90e3-4d2e-bd10-9cfc31ac6253.005.png)![](Aspose.Words.de782acc-90e3-4d2e-bd10-9cfc31ac6253.006.png)part of a larger secure infrastructure can enhance its overall security posture.![ref1]
+To mitigate these security issues in Chord and similar DHT protocols, various countermeasures and security enhancements can be implemented. These may include cryptographic techniques for securing communication, robust node admission and eviction policies, reputation systems to identify malicious nodes, and protocols for handling churn in a secure manner. Additionally, combining Chord with other security mechanisms or using it as part of a larger secure infrastructure can enhance its overall security posture.
 
 **Question:**
 
@@ -263,5 +263,3 @@ Keys Present at this node: 31
 Basically the victim node’s finger table is intercepted and all the nodes which are present as dst\_nodes are connected to malicious nodes.
 
 **The End**
-
-[ref1]: Aspose.Words.de782acc-90e3-4d2e-bd10-9cfc31ac6253.002.png
